@@ -30,7 +30,7 @@ const exercise1Array = [
 ];
 
 // Your solution here (one-line arrow function):
-// const exercise1Result1 = 
+const exercise1Result1 = exercise1Array =>
 
 // Your solution here (regular arrow function):
 // const exercise1Result2 = 

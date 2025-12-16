@@ -32,10 +32,12 @@ const exercise1Array = [
 ];
 
 // Your solution here (one-line arrow function):
-// const exercise1Result1 = 
+const exercise1Result1 = exercise1Array.filter(n => n.inStock);
 
 // Your solution here (regular arrow function):
-// const exercise1Result2 = 
+const exercise1Result2 = exercise1Array.filter(n => {
+    return n.inStock;
+})
 
 // Uncomment to test:
 // console.log("Exercise 1 - One-line:", exercise1Result1);
@@ -68,14 +70,16 @@ const exercise2Array = [
 ];
 
 // Your solution here (one-line arrow function):
-// const exercise2Result1 = 
+const exercise2Result1 = exercise2Array.filter(n => n.city === "New York");
 
 // Your solution here (regular arrow function):
-// const exercise2Result2 = 
+const exercise2Result2 = (exercise2Array) => {
+    return exercise2Array.filter(n => n.city === "New York");
+} 
 
 // Uncomment to test:
-// console.log("Exercise 2 - One-line:", exercise2Result1);
-// console.log("Exercise 2 - Regular:", exercise2Result2);
+console.log("Exercise 2 - One-line:", exercise2Result1);
+console.log("Exercise 2 - Regular:", exercise2Result2);
 // Expected: [{ name: "Alice", age: 25, city: "New York" }, { name: "Charlie", age: 35, city: "New York" }]
 
 /*
@@ -92,10 +96,12 @@ Write your solution using:
 const exercise3Array = [100, 250, 75, 500, 120, 300, 80];
 
 // Your solution here (one-line arrow function):
-// const exercise3Result1 = 
+const exercise3Result1 = exercise3Array => exercise3Array.filter(n => n > 25)
 
 // Your solution here (regular arrow function):
-// const exercise3Result2 = 
+const exercise3Result2 = exercise3Array => {
+    return exercise3Array.filter(n > 25)
+}
 
 // Uncomment to test:
 // console.log("Exercise 3 - One-line:", exercise3Result1);
@@ -129,10 +135,12 @@ const exercise4Array = [
 ];
 
 // Your solution here (one-line arrow function):
-// const exercise4Result1 = 
+const exercise4Result1 = exercise4Array => exercise4Array.filter(n => n.pages > 200)
 
 // Your solution here (regular arrow function):
-// const exercise4Result2 = 
+const exercise4Result2 = (exercise4Array) => {
+  return exercise4Array.filter(n => n.pages > 200);
+}
 
 // Uncomment to test:
 // console.log("Exercise 4 - One-line:", exercise4Result1);
