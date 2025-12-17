@@ -162,10 +162,10 @@ const exercise3Array = [5, 10, 15, 20];
 let exercise3Sum = 0;
 
 // Your solution here (one-line arrow function):
-// exercise3Array.forEach(
+exercise3Array.forEach(
 
 // Your solution here (regular arrow function):
-// exercise3Array.forEach((
+exercise3Array.forEach((
 
 // Uncomment to test:
 // console.log("Exercise 3 - Sum:", exercise3Sum);

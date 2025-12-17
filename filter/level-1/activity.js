@@ -213,7 +213,7 @@ const exercise5Result1 = exercise5Array => exercise5Array.filter(n => n % 4 === 
 
 // Your solution here (regular arrow function):
 const exercise5Result2 = exercise5Array.filter((n) => {
-    return n % 4 === 0
+    return n % 4 === 0;
 });
 
 // Uncomment to test:
